@@ -1,0 +1,6 @@
+{
+  "name": "Smart System - الأنظمة الذكية والمتقدمة",
+  "description": "حلول متكاملة ومبتكرة في أتمتة المنازل والفنادق، أنظمة المراقبة CCTV، الدخول الذكي، والتحكم بالطاقة والصوتيات",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="favHouseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a73e8" />
+      <stop offset="60%" stop-color="#0088cc" />
+      <stop offset="100%" stop-color="#00a8e8" />
+    </linearGradient>
+    <linearGradient id="favArcInner" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8a2be2" />
+      <stop offset="100%" stop-color="#9d4edd" />
+    </linearGradient>
+    <linearGradient id="favArcMid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0088cc" />
+      <stop offset="100%" stop-color="#00b4d8" />
+    </linearGradient>
+    <linearGradient id="favArcOuter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7928ca" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <mask id="favCutout">
+      <rect width="500" height="500" fill="#ffffff" />
+      <circle cx="145" cy="385" r="162" fill="#000000" />
+    </mask>
+  </defs>
+
+  <!-- House Body & Roof -->
+  <path
+    d="
+      M 250 45
+      L 380 152
+      V 85
+      H 404
+      V 172
+      L 435 197
+      A 10 10 0 0 1 426 212
+      H 395
+      V 375
+      A 22 22 0 0 1 373 397
+      H 127
+      A 22 22 0 0 1 105 375
+      V 212
+      H 74
+      A 10 10 0 0 1 65 197
+      L 250 45
+      Z
+    "
+    fill="url(#favHouseGrad)"
+    mask="url(#favCutout)"
+  />
+
+  <!-- Arcs -->
+  <path
+    d="
+      M 145 238
+      A 147 147 0 0 1 292 385
+      H 254
+      A 109 109 0 0 0 145 276
+      Z
+    "
+    fill="url(#favArcOuter)"
+  />
+  <path
+    d="
+      M 145 291
+      A 94 94 0 0 1 239 385
+      H 203
+      A 58 58 0 0 0 145 327
+      Z
+    "
+    fill="url(#favArcMid)"
+  />
+  <path
+    d="
+      M 145 343
+      A 42 42 0 0 1 187 385
+      H 145
+      Z
+    "
+    fill="url(#favArcInner)"
+  />
+</svg>
